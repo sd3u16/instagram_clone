@@ -3,8 +3,8 @@ const posts = [
         name: "Vincent van Gogh",
         username: "vincey1853",
         location: "Zundert, Netherlands",
-        avatar: "images/avatar-vangogh.jpg",
-        post: "images/post-vangogh.jpg",
+        avatar: "avatar-vangogh.jpg",
+        post: "post-vangogh.jpg",
         comment: "just took a few mushrooms lol",
         likes: 21
     },
@@ -12,8 +12,8 @@ const posts = [
         name: "Gustave Courbet",
         username: "gus1819",
         location: "Ornans, France",
-        avatar: "images/avatar-courbet.jpg",
-        post: "images/post-courbet.jpg",
+        avatar: "avatar-courbet.jpg",
+        post: "post-courbet.jpg",
         comment: "i'm feelin a bit stressed tbh",
         likes: 4
     },
@@ -21,8 +21,8 @@ const posts = [
         name: "Joseph Ducreux",
         username: "jd1735",
         location: "Paris, France",
-        avatar: "images/avatar-ducreux.jpg",
-        post: "images/post-ducreux.jpg",
+        avatar: "avatar-ducreux.jpg",
+        post: "post-ducreux.jpg",
         comment: "gm friends! which coin are YOU stacking up today?? post below and WAGMI!",
         likes: 152
     }
@@ -47,8 +47,8 @@ for(let i = 0; i < posts.length; i++){
     let img2 = document.createElement('img');
     img1.setAttribute('class', 'logo');
     img2.setAttribute('class', 'me');
-    img1.setAttribute('src', './images/logo.png')
-    img2.setAttribute('src', './images/Stefan1.jpg')
+    img1.setAttribute('src', '.logo.png')
+    img2.setAttribute('src', 'Stefan1.jpg')
     let div_img = document.createElement('div');
     div_img.setAttribute('class', 'header');
     div_img.append(img1);
@@ -99,9 +99,9 @@ for(let i = 0; i < posts.length; i++){
     let img_heart = document.createElement('img');
     let img_com = document.createElement('img');
     let img_share = document.createElement('img');
-    img_heart.setAttribute('src', './images/icon-heart.png')
-    img_com.setAttribute('src', './images/icon-comment.png')
-    img_share.setAttribute('src', './images/icon-dm.png');
+    img_heart.setAttribute('src', 'icon-heart.png')
+    img_com.setAttribute('src', 'icon-comment.png')
+    img_share.setAttribute('src', 'icon-dm.png');
     img_heart.setAttribute('class', 'heart');
     img_com.setAttribute('class', 'come');
     img_share.setAttribute('class', 'share')
